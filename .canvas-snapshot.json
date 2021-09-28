@@ -1,0 +1,538 @@
+{
+  "quiz": {
+    "id": 12282,
+    "title": "JavaScript Events Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12282",
+    "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12282?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 11,
+    "points_possible": 11.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_12282"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12282/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12282/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12282/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12282/submission_versions",
+    "assignment_id": 89508,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6357,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 1,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 12282,
+      "id": 140474,
+      "quiz_group_id": null,
+      "assessment_question_id": 162823,
+      "position": null,
+      "question_name": "Events: addEventListener()",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>In order for JavaScript to handle an event, we first need to tell it to listen for that event. What method can we call on the element to listen for events?</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong><span> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73929?module_item_id=143601\" target=\"_blank\">JavaScript Event Listeners Lab</a></span></p>",
+      "answers": [
+        {
+          "id": "5058",
+          "text": "addEventListener()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6605",
+          "text": "addEventListener",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 8108,
+          "text": ".addEventListener()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140475,
+      "quiz_group_id": null,
+      "assessment_question_id": 162827,
+      "position": null,
+      "question_name": "Events: addEventListener()",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div>\n<div><span>Which of the following snippets would change the </span><span>`.character-div`</span><span> element's position on the page?</span></div>\n</div>\n<div>\n<div>\n<div><code><span>let</span> <span>character</span><span> = </span><span>document</span><span>.</span><span>querySelector</span><span>(</span><span>'.character-div'</span><span>)</span></code></div>\n</div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73930?module_item_id=143602\" target=\"_blank\">Moving Things with JavaScript by Acting on Events</a></p>",
+      "answers": [
+        {
+          "id": 2267,
+          "text": "",
+          "html": "<div><code><span>document</span><span>.</span><span>addEventListener</span><span>(</span><span>\"keydown\"</span><span>, </span><span>function</span><span> (</span><span>event</span><span>) {</span></code></div>\n<div><code><span>&nbsp; if</span><span> (</span><span>event</span><span>.</span><span>key</span> <span>===</span> <span>\"ArrowLeft\"</span><span>) {</span></code></div>\n<div><code><span>&nbsp; &nbsp; const</span> <span>leftNumbers</span><span> = </span><span>character</span><span>.</span><span>style</span><span>.</span><span>left</span><span>.</span><span>replace</span><span>(</span><span>\"px\"</span><span>, </span><span>\"\"</span><span>);</span></code></div>\n<div><code><span>&nbsp; &nbsp; const</span> <span>left</span><span> = </span><span>parseInt</span><span>(</span><span>leftNumbers</span><span>, </span><span>10</span><span>);</span></code></div>\n<div><code><span>&nbsp; &nbsp; character</span><span>.</span><span>style</span><span>.</span><span>left</span><span> = </span><span>`</span><span>${</span><span>left</span> <span>-</span> <span>1</span><span>}</span><span>px`</span><span>;</span></code></div>\n<div><code><span>&nbsp; }</span></code></div>\n<div><code><span>});</span></code></div>",
+          "comments": "",
+          "comments_html": "<p>Correct! We are conditionally changing the <code>character.style.left</code>&nbsp;to move the character. Well done!</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 9981,
+          "text": "",
+          "html": "<div><code><span>document</span><span>.</span><span>addEventListener</span><span>(</span><span>\"keydown\"</span><span>, </span><span>function</span><span> (</span><span>event</span><span>) {</span></code></div>\n<div><code><span> &nbsp;</span><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">character</span><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">.</span><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">move</span><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">(</span><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">left</span><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">)</span></code></div>\n<div><code><span>});</span></code></div>",
+          "comments": "",
+          "comments_html": "<div>\n<div><span>Try again! While this seems like an easy answer, we haven't been provided with a </span><span>`move`</span><span> method, so this option likely won't work!</span></div>\n</div>",
+          "weight": 0.0
+        },
+        {
+          "id": 1413,
+          "text": "",
+          "html": "<div><code><span>document</span><span>.</span><span>addEventListener</span><span>(</span><span>\"keydown\"</span><span>, </span><span>function</span><span> (</span><span>event</span><span>) {</span></code></div>\n<div><code><span>&nbsp; if</span><span> (</span><span>event</span><span>.</span><span>key</span> <span>===</span> <span>\"ArrowLeft\"</span><span>) {</span></code></div>\n<div><code><span>&nbsp; &nbsp; const</span> <span>leftNumbers</span><span> = </span><span>character</span><span>.</span><span>style</span><span>.</span><span>left</span><span>.</span><span>replace</span><span>(</span><span>\"px\"</span><span>, </span><span>\"\"</span><span>);</span></code></div>\n<div><code><span>&nbsp; &nbsp; const</span> <span>left</span><span> = </span><span>parseInt</span><span>(</span><span>leftNumbers</span><span>, </span><span>10</span><span>);</span></code></div>\n<div><code><span>&nbsp; &nbsp; console.log(character</span><span>.</span><span>style</span><span>.</span><span>left)</span></code></div>\n<div><code><span>&nbsp; }</span></code></div>\n<div><code><span>});</span></code></div>",
+          "comments": "",
+          "comments_html": "<div>\n<div><span>Try again! While this option is close, we aren't actually moving our </span><span>`character`</span><span> element anywhere!</span></div>\n</div>",
+          "weight": 0.0
+        },
+        {
+          "id": 2758,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140476,
+      "quiz_group_id": null,
+      "assessment_question_id": 162828,
+      "position": null,
+      "question_name": "Events: addEventListener()",
+      "question_type": "true_false_question",
+      "question_text": "<div>\n<div><span>We are able to update an element's position on the page conditionally.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73930?module_item_id=143602\" target=\"_blank\">Moving Things with JavaScript by Acting on Events</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<div>\n<div><span>Correct! We can use conditional statements to update an element's position on the page only when we want them to be updated. </span></div>\n</div>",
+          "text": "True",
+          "weight": 100,
+          "id": 8985
+        },
+        {
+          "comments": "",
+          "comments_html": "<div>\n<div><span>Try again! We can use conditional statements to update an element's position on the page only when we want them to be updated. </span></div>\n</div>",
+          "text": "False",
+          "weight": 0,
+          "id": 813
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140477,
+      "quiz_group_id": null,
+      "assessment_question_id": 162829,
+      "position": null,
+      "question_name": "Events: DOMContentLoaded",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>The </span><span>__</span><span>______ event fires when your page's DOM is fully parsed from the underlying html.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-domcontentloaded?module_item_id=270738\" target=\"_blank\">Video: DOMContentLoaded</a>, <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73931?module_item_id=143603\" target=\"_blank\">The JavaScript DOMContentLoaded Event</a></p>",
+      "answers": [
+        {
+          "id": 2571,
+          "text": "DOMContentLoaded",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140478,
+      "quiz_group_id": null,
+      "assessment_question_id": 162830,
+      "position": null,
+      "question_name": "Events: DOMContentLoaded",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>Set up an event for DOMContentLoaded, that takes in an anonymous function, and logs a message the console that says \"Loaded!\"</span></div>\n<div>\n<div>\n<div><span>document.addEventListener('DOMContentLoaded', function(){console.log(\"The DOM has loaded!\")})</span></div>\n</div>\n</div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-domcontentloaded?module_item_id=270738\" target=\"_blank\">Video: DOMContentLoaded</a>, <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73931?module_item_id=143603\" target=\"_blank\">The JavaScript DOMContentLoaded Event</a></p>",
+      "answers": [
+        {
+          "id": 4174,
+          "text": "document.addEventListener('DOMContentLoaded', function(){console.log(\"Loaded!\")",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 9503,
+          "text": "document.addEventListener('DOMContentLoaded', () => console.log(\"Loaded!\"))",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 3524,
+          "text": "document.addEventListener('DOMContentLoaded', () => {console.log(\"Loaded!\")})",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140479,
+      "quiz_group_id": null,
+      "assessment_question_id": 162824,
+      "position": null,
+      "question_name": "Events: Event Types",
+      "question_type": "short_answer_question",
+      "question_text": "<div><span>Kiyana wants to make the character in their game jump every time the user presses the space bar. What event would make the most sense to listen for in the following JavaScript code?</span></div>\n<div><code><span>document</span><span>.</span><span>addEventListener</span><span>(</span><span>'___'</span><span>, </span><span>characterJump</span><span>)</span></code></div>\n<p>&nbsp;</p>\n<div><code><span>function</span> <span>characterJump</span><span>(</span><span>event</span><span>){</span></code></div>\n<div><code><span>&nbsp; if</span><span>(</span><span>event</span><span>.</span><span>code</span> <span>===</span> <span>'Space'</span><span>){</span></code></div>\n<div><code><span>&nbsp; &nbsp; console</span><span>.</span><span>log</span><span>(</span><span>'JUMP!'</span><span>)</span></code></div>\n<div><code><span>&nbsp; }</span></code></div>\n<div><code><span>}</span></code></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\" target=\"_blank\">JavaScript Events</a></p>",
+      "answers": [
+        {
+          "id": "6671",
+          "text": "'keydown'",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "9515",
+          "text": "keydown",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140480,
+      "quiz_group_id": null,
+      "assessment_question_id": 162826,
+      "position": null,
+      "question_name": "Events: Event Types",
+      "question_type": "short_answer_question",
+      "question_text": "<div><span>I have the following code, and want to listen for clickEvents on the </span><span>`characterDiv`</span><span>, and call the </span><span>`handleClick`</span><span> function once it is clicked. What is the syntax to write out this event listener?</span></div>\n<div><code><span>let</span> <span>characterDiv</span><span> = </span><span>document</span><span>.</span><span>querySelector</span><span>(</span><span>'#character-div'</span><span>)</span></code></div>\n<div><code><span>function</span> <span>handleClick</span><span>(</span><span>event</span><span>){</span></code></div>\n<div><code><span>&nbsp; console</span><span>.</span><span>log</span><span>(</span><span>\"I've been clicked!\"</span><span>)</span></code></div>\n<div><code><span>}</span></code></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"http://source/s:%20https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\" target=\"_blank\">JavaScript Events</a></p>",
+      "answers": [
+        {
+          "id": "4099",
+          "text": "characterDiv.addEventListener('click', handleClick)",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "1191",
+          "text": "characterDiv.addEventListener('click', handleClick);",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140481,
+      "quiz_group_id": null,
+      "assessment_question_id": 162831,
+      "position": null,
+      "question_name": "Events: Forms",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>The </span><span>__</span><span>____ event fires when a </span><code><span>form</span></code><span>&nbsp;is submitted.</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\" target=\"_blank\">Video: Forms</a></p>",
+      "answers": [
+        {
+          "id": 5637,
+          "text": "submit",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140482,
+      "quiz_group_id": null,
+      "assessment_question_id": 162832,
+      "position": null,
+      "question_name": "Events: Forms",
+      "question_type": "short_answer_question",
+      "question_text": "<div><span>Given the following code, write out the line of code needed to listen for an event on the form, and call the logSubmit function as a callback when the event is fired.</span></div>\n<div><code><span>function</span> <span>logSubmit</span><span>(</span><span>event</span><span>) {</span></code></div>\n<div><code><span>&nbsp; log</span><span>.</span><span>textContent</span><span> = </span><span>`Form Submitted! Time stamp: </span><span>${</span><span>event</span><span>.</span><span>timeStamp</span><span>}</span><span>`</span><span>;</span></code></div>\n<div><code><span>&nbsp;event</span><span>.</span><span>preventDefault</span><span>();</span></code></div>\n<div><code><span>}</span></code></div>\n<p>&nbsp;</p>\n<div><code><span>const</span> <span>form</span><span> = </span><span>document</span><span>.</span><span>getElementById</span><span>(</span><span>'form'</span><span>);</span></code></div>\n<div><code><span>const</span> <span>log</span><span> = </span><span>document</span><span>.</span><span>getElementById</span><span>(</span><span>'log'</span><span>);</span></code></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\" target=\"_blank\">Video: Forms</a></p>",
+      "answers": [
+        {
+          "id": "8108",
+          "text": "form.addEventListener('submit', logSubmit);",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "313",
+          "text": "form.addEventListener('submit', logSubmit)",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140483,
+      "quiz_group_id": null,
+      "assessment_question_id": 162833,
+      "position": null,
+      "question_name": "Events: Forms",
+      "question_type": "short_answer_question",
+      "question_text": "<div><span>Consider the following code; whenever we fire the </span><code><span>submit</span></code><span> on the form below, the whole page refreshes. What line of code could we add to stop this from happening?</span></div>\n<div><code><span>let</span> <span>form</span><span> = </span><span>document</span><span>.</span><span>querySelector</span><span>(</span><span>'form'</span><span>)</span></code></div>\n<div><code><span>form</span><span>.</span><span>addEventListener</span><span>(</span><span>'submit'</span><span>, </span><span>submitForm</span><span>)</span></code></div>\n<p>&nbsp;</p>\n<div><code><span>function</span> <span>submitForm</span><span>(</span><span>event</span><span>){</span></code></div>\n<div><code><span>&nbsp; console</span><span>.</span><span>log</span><span>(</span><span>event</span><span>)</span></code></div>\n<div><code><span>}</span></code></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\" target=\"_blank\">Video: Forms</a></p>",
+      "answers": [
+        {
+          "id": "2013",
+          "text": "event.preventDefault()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12282,
+      "id": 140484,
+      "quiz_group_id": null,
+      "assessment_question_id": 162834,
+      "position": null,
+      "question_name": "Events: Forms",
+      "question_type": "short_answer_question",
+      "question_text": "<div>\n<div><span>Given the following html snippet, and the following javascript code, what line of code can we write to print the value of the input box to the console?</span></div>\n<br>\n<div><span>```html</span></div>\n<div><span>&lt;</span><span>body</span><span>&gt;</span></div>\n<div><span>&lt;</span><span>form</span><span>&gt;</span></div>\n<div><span>&lt;</span><span>input</span> <span>id</span><span>=</span><span>'create_item'</span> <span>type</span><span>=</span><span>'text'</span> <span>placeholder</span><span>=</span><span>'Create New Item...'</span><span>/&gt;</span></div>\n<div><span>&lt;</span><span>input</span> <span>id</span><span>=</span><span>'new-item-button'</span> <span>type</span><span>=</span><span>'submit'</span> <span>value</span><span>=</span><span>'Submit!'</span><span>/&gt;</span></div>\n<div><span>&lt;/</span><span>form</span><span>&gt;</span></div>\n<div><span>&lt;/</span><span>body</span><span>&gt;</span></div>\n<div><span>```</span></div>\n<br>\n<div><span>```jsx</span></div>\n<div><span>let</span> <span>form</span><span> = </span><span>document</span><span>.</span><span>querySelector</span><span>(</span><span>'form'</span><span>)</span></div>\n<div><span>form</span><span>.</span><span>addEventListener</span><span>(</span><span>'submit'</span><span>, </span><span>submitForm</span><span>)</span></div>\n<br>\n<div><span>function</span> <span>submitForm</span><span>(</span><span>event</span><span>){</span></div>\n<div><span>event</span><span>.</span><span>preventDefault</span><span>()</span></div>\n<div><span>console</span><span>.</span><span>log</span><span>(</span><span>____</span><span>)</span></div>\n<div><span>}</span></div>\n</div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\" target=\"_blank\">Video: Forms</a></p>",
+      "answers": [
+        {
+          "id": "2509",
+          "text": "console.log(event.target.create_item.value)",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6005",
+          "text": "event.target.create_item.value",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6596",
+          "text": "console.log(event.target.input[0].value)",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "3576",
+          "text": "event.target.input[0].value",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
