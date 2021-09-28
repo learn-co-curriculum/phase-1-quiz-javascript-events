@@ -1,7 +1,7 @@
 ---
 id: 12282
 course_id: 3297
-repo: phase-1-quiz-javascript-events-quiz
+repo: phase-1-quiz-javascript-events
 ---
 
 # JavaScript Events Quiz
