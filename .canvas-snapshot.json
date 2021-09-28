@@ -95,10 +95,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/73929?module_item_id=143601\">JavaScript Event Listeners Lab</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73929?module_item_id=143601\">JavaScript Event Listeners Lab</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4918,
+          "id": 5926,
           "text": "addEventListener",
           "comments": "",
           "comments_html": "",
@@ -127,10 +127,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/73930?module_item_id=143602\">Moving Things with JavaScript by Acting on Events</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73930?module_item_id=143602\">Moving Things with JavaScript by Acting on Events</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5780,
+          "id": 5121,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">keydown</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">key</span> <span class=\"o\">===</span> <span class=\"dl\">\"</span><span class=\"s2\">ArrowLeft</span><span class=\"dl\">\"</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">leftNumbers</span> <span class=\"o\">=</span> <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span><span class=\"p\">.</span><span class=\"nx\">replace</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">px</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"\"</span><span class=\"p\">);</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">left</span> <span class=\"o\">=</span> <span class=\"nb\">parseInt</span><span class=\"p\">(</span><span class=\"nx\">leftNumbers</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">);</span>\n    <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span> <span class=\"o\">=</span> <span class=\"s2\">`</span><span class=\"p\">${</span><span class=\"nx\">left</span> <span class=\"o\">-</span> <span class=\"mi\">1</span><span class=\"p\">}</span><span class=\"s2\">px`</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">});</span>\n</code></pre></div>",
           "comments": "",
@@ -138,7 +138,7 @@
           "weight": 100.0
         },
         {
-          "id": 5043,
+          "id": 4118,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">keydown</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">move</span><span class=\"p\">(</span><span class=\"nx\">left</span><span class=\"p\">);</span>\n<span class=\"p\">});</span>\n</code></pre></div>",
           "comments": "",
@@ -146,7 +146,7 @@
           "weight": 0.0
         },
         {
-          "id": 3764,
+          "id": 7273,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">keydown</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">key</span> <span class=\"o\">===</span> <span class=\"dl\">\"</span><span class=\"s2\">ArrowLeft</span><span class=\"dl\">\"</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">leftNumbers</span> <span class=\"o\">=</span> <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span><span class=\"p\">.</span><span class=\"nx\">replace</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">px</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"\"</span><span class=\"p\">);</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">left</span> <span class=\"o\">=</span> <span class=\"nb\">parseInt</span><span class=\"p\">(</span><span class=\"nx\">leftNumbers</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">);</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">});</span>\n</code></pre></div>",
           "comments": "",
@@ -154,7 +154,7 @@
           "weight": 0.0
         },
         {
-          "id": 46,
+          "id": 1196,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -184,21 +184,21 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/73930?module_item_id=143602\">Moving Things with JavaScript by Acting on Events</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73930?module_item_id=143602\">Moving Things with JavaScript by Acting on Events</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 100,
-          "id": 3803
+          "id": 145
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 0,
-          "id": 9501
+          "id": 996
         }
       ],
       "variables": null,
@@ -223,10 +223,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/video-domcontentloaded?module_item_id=270738\">Video: DOMContentLoaded</a><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73931?module_item_id=143603\">The JavaScript DOMContentLoaded Event</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-domcontentloaded?module_item_id=270738\">Video: DOMContentLoaded</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73931?module_item_id=143603\">The JavaScript DOMContentLoaded Event</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1998,
+          "id": 6641,
           "text": "DOMContentLoaded",
           "comments": "",
           "comments_html": "",
@@ -255,21 +255,21 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/video-domcontentloaded?module_item_id=270738\">Video: DOMContentLoaded</a><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73931?module_item_id=143603\">The JavaScript DOMContentLoaded Event</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-domcontentloaded?module_item_id=270738\">Video: DOMContentLoaded</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73931?module_item_id=143603\">The JavaScript DOMContentLoaded Event</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "<p>Correct! Since the <code>&lt;script&gt;</code> tag comes before the <code>&lt;h1&gt;</code> element in the HTML\ndocument, the <code>&lt;h1&gt;</code> element won't be loaded in the DOM by the time our\nJavaScript code runs. That means our <code>querySelector</code> will return <code>null</code>, so\nwe'll get an error <code>Cannot read properties of null</code>. We could prevent this\nerror by listening for the <code>DOMContentLoaded</code> before accessing elements from\nthe DOM in our code.</p>",
           "text": "True",
           "weight": 100,
-          "id": 9890
+          "id": 922
         },
         {
           "comments": "",
           "comments_html": "<p>Since the <code>&lt;script&gt;</code> tag comes before the <code>&lt;h1&gt;</code> element in the HTML\ndocument, the <code>&lt;h1&gt;</code> element won't be loaded in the DOM by the time our\nJavaScript code runs. That means our <code>querySelector</code> will return <code>null</code>, so\nwe'll get an error <code>Cannot read properties of null</code>. We could prevent this\nerror by listening for the <code>DOMContentLoaded</code> before accessing elements from\nthe DOM in our code.</p>",
           "text": "False",
           "weight": 0,
-          "id": 6788
+          "id": 5848
         }
       ],
       "variables": null,
@@ -294,10 +294,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\">JavaScript Events</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\">JavaScript Events</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5004,
+          "id": 9238,
           "text": "keydown",
           "comments": "",
           "comments_html": "",
@@ -326,24 +326,24 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"http://source/s:%20https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\">JavaScript Events</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"http://source/s:%20https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\">JavaScript Events</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1773,
+          "id": 194,
           "text": "handleClick",
           "comments": "",
           "comments_html": "<p>Correct! We can use <code>handleClick</code> as a callback function for the event listener.</p>",
           "weight": 100
         },
         {
-          "id": 6349,
+          "id": 7927,
           "text": "() => handleClick()",
           "comments": "",
           "comments_html": "<p>Correct! We can write an arrow function to call <code>handleClick</code> as a callback\nfunction for the event listener. We could also use <code>handleClick</code> as the\ncallback without the arrow function, like so:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">characterDiv</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">handleClick</span><span class=\"p\">);</span>\n</code></pre></div>",
           "weight": 100
         },
         {
-          "id": 4534,
+          "id": 5863,
           "text": "handleClick()",
           "comments": "",
           "comments_html": "<p>Not quite. <code>addEventListener</code> expects a callback function. By placing\nparentheses at the end of <code>handleClick()</code> we are invoking the function\ndirectly, rather than waiting for the JavaScript to invoke the function when\nthe <code>characterDiv</code> is clicked.</p>",
@@ -372,24 +372,24 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2506,
+          "id": 248,
           "text": "submit",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7530,
+          "id": 4065,
           "text": "'submit'",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6349,
+          "id": 5095,
           "text": "\"submit\"",
           "comments": "",
           "comments_html": "",
@@ -418,31 +418,31 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8581,
+          "id": 9280,
           "text": "form.addEventListener('submit', logSubmit);",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 222,
+          "id": 6203,
           "text": "form.addEventListener('submit', logSubmit)",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6654,
+          "id": 6887,
           "text": "form.addEventListener(\"submit\", logSubmit);",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 397,
+          "id": 4172,
           "text": "form.addEventListener(\"submit\", logSubmit)",
           "comments": "",
           "comments_html": "",
@@ -471,17 +471,17 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 820,
+          "id": 2414,
           "text": "event.preventDefault()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 9529,
+          "id": 1187,
           "text": "event.preventDefault();",
           "comments": "",
           "comments_html": "",
@@ -510,10 +510,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8414,
+          "id": 7880,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! <code>event.target</code> in this context will give us the <code>form</code> element, and\nwe can access input elements with a form using their <code>id</code> attribute. Then we\ncan use the <code>.value</code> attribute of the input to access the text input by the\nuser.</p>",
@@ -521,7 +521,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">target</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 7973,
+          "id": 4950,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We can access input elements with a form using their <code>id</code> attribute.\nThen we can use the <code>.value</code> attribute of the input to access the text input\nby the user.</p>",
@@ -529,7 +529,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 2918,
+          "id": 1886,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We find the input element using <code>querySelector</code>. Then we can use the\n<code>.value</code> attribute of the input to access the text input by the user.</p>",
@@ -537,7 +537,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 9645,
+          "id": 1317,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We find the input element within the <code>form</code> using <code>querySelector</code>.\nThen we can use the <code>.value</code> attribute of the input to access the text input\nby the user.</p>",
@@ -545,7 +545,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 149,
+          "id": 7711,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
