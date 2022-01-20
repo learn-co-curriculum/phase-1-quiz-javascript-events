@@ -4,7 +4,7 @@
     "title": "JavaScript Events Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12282",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12282?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-javascript-events\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-javascript-events/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-javascript-events\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-javascript-events/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
-    "version_number": 2,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -98,7 +98,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73929?module_item_id=143601\">JavaScript Event Listeners Lab</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5926,
+          "id": "5926",
           "text": "addEventListener",
           "comments": "",
           "comments_html": "",
@@ -226,7 +226,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-domcontentloaded?module_item_id=270738\">Video: DOMContentLoaded</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73931?module_item_id=143603\">The JavaScript DOMContentLoaded Event</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6641,
+          "id": "6641",
           "text": "DOMContentLoaded",
           "comments": "",
           "comments_html": "",
@@ -248,7 +248,7 @@
       "position": null,
       "question_name": "Events: DOMContentLoaded",
       "question_type": "true_false_question",
-      "question_text": "<p>Select true or false. Given the following HTML:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code><span class=\"cp\">&lt;!DOCTYPE html&gt;</span>\n<span class=\"nt\">&lt;html</span> <span class=\"na\">lang=</span><span class=\"s\">\"en\"</span><span class=\"nt\">&gt;</span>\n  <span class=\"nt\">&lt;head&gt;</span>\n    <span class=\"nt\">&lt;script </span><span class=\"na\">src=</span><span class=\"s\">\"index.js\"</span><span class=\"nt\">&gt;&lt;/script&gt;</span>\n  <span class=\"nt\">&lt;/head&gt;</span>\n  <span class=\"nt\">&lt;body&gt;</span>\n    <span class=\"nt\">&lt;h1&gt;</span>Hello!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;/body&gt;</span>\n<span class=\"nt\">&lt;/html&gt;</span>\n</code></pre></div>\n<p>And the following JavaScript code in the <code>index.js</code> file:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">h1</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">h1</span><span class=\"p\">.</span><span class=\"nx\">textContent</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>The JavaScript code able would throw an error.</p>",
+      "question_text": "<p>Select true or false. Given the following HTML:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code><span class=\"cp\">&lt;!DOCTYPE html&gt;</span>\n<span class=\"nt\">&lt;html</span> <span class=\"na\">lang=</span><span class=\"s\">\"en\"</span><span class=\"nt\">&gt;</span>\n  <span class=\"nt\">&lt;head&gt;</span>\n    <span class=\"nt\">&lt;script </span><span class=\"na\">src=</span><span class=\"s\">\"index.js\"</span><span class=\"nt\">&gt;&lt;/script&gt;</span>\n  <span class=\"nt\">&lt;/head&gt;</span>\n  <span class=\"nt\">&lt;body&gt;</span>\n    <span class=\"nt\">&lt;h1&gt;</span>Hello!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;/body&gt;</span>\n<span class=\"nt\">&lt;/html&gt;</span>\n</code></pre></div>\n<p>And the following JavaScript code in the <code>index.js</code> file:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">h1</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">h1</span><span class=\"p\">.</span><span class=\"nx\">textContent</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>The JavaScript code would throw an error.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -297,7 +297,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\">JavaScript Events</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9238,
+          "id": "9238",
           "text": "keydown",
           "comments": "",
           "comments_html": "",
@@ -329,21 +329,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"http://source/s:%20https://learning.flatironschool.com/courses/3297/pages/javascript-events?module_item_id=143600\">JavaScript Events</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 194,
+          "id": "194",
           "text": "handleClick",
           "comments": "",
           "comments_html": "<p>Correct! We can use <code>handleClick</code> as a callback function for the event listener.</p>",
           "weight": 100
         },
         {
-          "id": 7927,
+          "id": "7927",
           "text": "() => handleClick()",
           "comments": "",
           "comments_html": "<p>Correct! We can write an arrow function to call <code>handleClick</code> as a callback\nfunction for the event listener. We could also use <code>handleClick</code> as the\ncallback without the arrow function, like so:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">characterDiv</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">handleClick</span><span class=\"p\">);</span>\n</code></pre></div>",
           "weight": 100
         },
         {
-          "id": 5863,
+          "id": "5863",
           "text": "handleClick()",
           "comments": "",
           "comments_html": "<p>Not quite. <code>addEventListener</code> expects a callback function. By placing\nparentheses at the end of <code>handleClick()</code> we are invoking the function\ndirectly, rather than waiting for the JavaScript to invoke the function when\nthe <code>characterDiv</code> is clicked.</p>",
@@ -375,21 +375,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 248,
+          "id": "248",
           "text": "submit",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 4065,
+          "id": "4065",
           "text": "'submit'",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 5095,
+          "id": "5095",
           "text": "\"submit\"",
           "comments": "",
           "comments_html": "",
@@ -421,28 +421,28 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9280,
+          "id": "9280",
           "text": "form.addEventListener('submit', logSubmit);",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6203,
+          "id": "6203",
           "text": "form.addEventListener('submit', logSubmit)",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6887,
+          "id": "6887",
           "text": "form.addEventListener(\"submit\", logSubmit);",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 4172,
+          "id": "4172",
           "text": "form.addEventListener(\"submit\", logSubmit)",
           "comments": "",
           "comments_html": "",
@@ -474,14 +474,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2414,
+          "id": "2414",
           "text": "event.preventDefault()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1187,
+          "id": "1187",
           "text": "event.preventDefault();",
           "comments": "",
           "comments_html": "",
@@ -513,7 +513,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-forms?module_item_id=270739\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7880,
+          "id": "7880",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! <code>event.target</code> in this context will give us the <code>form</code> element, and\nwe can access input elements with a form using their <code>id</code> attribute. Then we\ncan use the <code>.value</code> attribute of the input to access the text input by the\nuser.</p>",
@@ -521,7 +521,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">target</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 4950,
+          "id": "4950",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We can access input elements with a form using their <code>id</code> attribute.\nThen we can use the <code>.value</code> attribute of the input to access the text input\nby the user.</p>",
@@ -529,7 +529,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 1886,
+          "id": "1886",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We find the input element using <code>querySelector</code>. Then we can use the\n<code>.value</code> attribute of the input to access the text input by the user.</p>",
@@ -537,7 +537,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 1317,
+          "id": "1317",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We find the input element within the <code>form</code> using <code>querySelector</code>.\nThen we can use the <code>.value</code> attribute of the input to access the text input\nby the user.</p>",
@@ -545,7 +545,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 7711,
+          "id": "7711",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
