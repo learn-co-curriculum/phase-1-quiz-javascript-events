@@ -429,8 +429,8 @@
           "weight": 100
         },
         {
-          "id": "6203",
-          "text": "form.addEventListener('submit', logSubmit)",
+          "id": 4439,
+          "text": "form.addEventListener('submit',logSubmit)",
           "comments": "",
           "comments_html": "",
           "weight": 100
@@ -443,8 +443,8 @@
           "weight": 100
         },
         {
-          "id": "4172",
-          "text": "form.addEventListener(\"submit\", logSubmit)",
+          "id": 4340,
+          "text": "form.addEventListener(\"submit\",logSubmit)",
           "comments": "",
           "comments_html": "",
           "weight": 100
