@@ -4,7 +4,7 @@
     "title": "JavaScript Events Quiz",
     "html_url": "https://learning.flatironschool.com/courses/7550/quizzes/53424",
     "mobile_url": "https://learning.flatironschool.com/courses/7550/quizzes/53424?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-javascript-events\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-javascript-events/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-javascript-events\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-javascript-events/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 25044,
     "show_correct_answers_last_attempt": true,
-    "version_number": 8,
+    "version_number": 9,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "gd60a16af7250c09365a8108e95f44d58",
@@ -85,24 +85,25 @@
       "id": 366225,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
+      "assessment_question_id": 632072,
+      "position": null,
       "question_name": "Events: addEventListener()",
       "question_type": "short_answer_question",
-      "question_text": "<p>In order for JavaScript to handle an event, we first need to tell it to listen\nfor that event. What method can we call on the element to listen for events?</p>\n\n<p>Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">btn</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#btn</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n\n<span class=\"nx\">btn</span><span class=\"p\">.</span><span class=\"nx\">____________</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">callback</span><span class=\"p\">);</span>\n</code></pre></div>",
+      "question_text": "<p>In order for JavaScript to handle an event, we first need to tell it to listen\nfor that event. What method can we call on the element to listen for events?</p>\n\n<p>Fill in the blank:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">btn</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#btn</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n\n<span class=\"nx\">btn</span><span class=\"p\">.</span> <span class=\"nx\">____________</span> <span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">callback</span><span class=\"p\">);</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:JavaScript Event Listeners Lab",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263256?module_item_id=627538\">JavaScript Event Listeners Lab</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "5926",
           "text": "addEventListener",
-          "weight": 100,
           "comments": "",
-          "id": 5926
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -116,8 +117,8 @@
       "id": 366226,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 2,
+      "assessment_question_id": 632070,
+      "position": null,
       "question_name": "Events: addEventListener()",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Which of the following snippets would change the <code>.character-div</code> element's\nposition on the page?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">character</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">.character-div</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n</code></pre></div>",
@@ -125,44 +126,41 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Moving Things with JavaScript by Acting on Events",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263260?module_item_id=627539\">Moving Things with JavaScript by Acting on Events</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_5121",
           "id": 5121,
-          "text": "document.addEventListener(\"keydown\", function (event) { if (event.key === \"ArrowLeft\") { const leftNumbers = character.style.left.replace(\"px\", \"\"); const left = parseInt(leftNumbers, 10); character.style.left = `${left - 1}px`; } });",
+          "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">keydown</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">key</span> <span class=\"o\">===</span> <span class=\"dl\">\"</span><span class=\"s2\">ArrowLeft</span><span class=\"dl\">\"</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">leftNumbers</span> <span class=\"o\">=</span> <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span><span class=\"p\">.</span><span class=\"nx\">replace</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">px</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"\"</span><span class=\"p\">);</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">left</span> <span class=\"o\">=</span> <span class=\"nb\">parseInt</span><span class=\"p\">(</span><span class=\"nx\">leftNumbers</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">);</span>\n    <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span> <span class=\"o\">=</span> <span class=\"s2\">`</span><span class=\"p\">${</span><span class=\"nx\">left</span> <span class=\"o\">-</span> <span class=\"mi\">1</span><span class=\"p\">}</span><span class=\"s2\">px`</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">});</span>\n</code></pre></div>",
-          "comments": "Correct! We are conditionally changing the character.style.left to move the character. Well done!",
-          "comments_html": "Correct! We are conditionally changing the <code>character.style.left</code> to move the\ncharacter. Well done!"
+          "comments": "",
+          "comments_html": "<p>Correct! We are conditionally changing the <code>character.style.left</code> to move the\ncharacter. Well done!</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_4118",
           "id": 4118,
-          "text": "document.addEventListener(\"keydown\", function (event) { character.move(left); });",
+          "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">keydown</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">move</span><span class=\"p\">(</span><span class=\"nx\">left</span><span class=\"p\">);</span>\n<span class=\"p\">});</span>\n</code></pre></div>",
-          "comments": "Try again! While this seems like an easy answer, we haven't been provided with a move method, so this option likely won't work!",
-          "comments_html": "Try again! While this seems like an easy answer, we haven't been provided with\na <code>move</code> method, so this option likely won't work!"
+          "comments": "",
+          "comments_html": "<p>Try again! While this seems like an easy answer, we haven't been provided with a\n<code>move</code> method, so this option likely won't work!</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7273",
           "id": 7273,
-          "text": "document.addEventListener(\"keydown\", function (event) { if (event.key === \"ArrowLeft\") { const leftNumbers = character.style.left.replace(\"px\", \"\"); const left = parseInt(leftNumbers, 10); console.log(character.style.left); } });",
+          "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">keydown</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">key</span> <span class=\"o\">===</span> <span class=\"dl\">\"</span><span class=\"s2\">ArrowLeft</span><span class=\"dl\">\"</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">leftNumbers</span> <span class=\"o\">=</span> <span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span><span class=\"p\">.</span><span class=\"nx\">replace</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">px</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"\"</span><span class=\"p\">);</span>\n    <span class=\"kd\">const</span> <span class=\"nx\">left</span> <span class=\"o\">=</span> <span class=\"nb\">parseInt</span><span class=\"p\">(</span><span class=\"nx\">leftNumbers</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">);</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">character</span><span class=\"p\">.</span><span class=\"nx\">style</span><span class=\"p\">.</span><span class=\"nx\">left</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">});</span>\n</code></pre></div>",
-          "comments": "Try again! While this option is close, we aren't actually moving our character element anywhere!",
-          "comments_html": "Try again! While this option is close, we aren't actually moving our\n<code>character</code> element anywhere!"
+          "comments": "",
+          "comments_html": "<p>Try again! While this option is close, we aren't actually moving our<code>character</code>\nelement anywhere!</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_1196",
-          "id": 1196,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 1662,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -176,30 +174,32 @@
       "id": 366227,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
+      "assessment_question_id": 632075,
+      "position": null,
       "question_name": "Events: addEventListener()",
       "question_type": "true_false_question",
-      "question_text": "The <code>keydown</code> event type is fired when a key is pressed.",
+      "question_text": "<p>The <code>keydown</code> event type is fired when a key is pressed.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Moving Things with JavaScript by Acting on Events",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/assignments/263260?module_item_id=627539\">Moving Things with JavaScript by Acting on Events</a></li></ul><p></p>",
       "answers": [
         {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
           "weight": 100,
-          "migration_id": "RESPONSE_145",
-          "id": 145,
-          "text": "True"
+          "id": 145
         },
         {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
           "weight": 0,
-          "migration_id": "RESPONSE_996",
-          "id": 996,
-          "text": "False"
+          "id": 996
         }
       ],
       "variables": null,
@@ -213,24 +213,25 @@
       "id": 366228,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 4,
+      "assessment_question_id": 632071,
+      "position": null,
       "question_name": "Events: DOMContentLoaded",
       "question_type": "short_answer_question",
-      "question_text": "The ________ event fires when your page's DOM is fully parsed from the\nunderlying html.",
+      "question_text": "<p>The ________ event fires when your page's DOM is fully parsed from the\nunderlying html.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Video: DOMContentLoadedThe JavaScript DOMContentLoaded Event",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/video-domcontentloaded?module_item_id=627541\">Video: DOMContentLoaded</a></li><li><a href=\"/courses/7550/assignments/263283?module_item_id=627542\">The JavaScript DOMContentLoaded Event</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "6641",
           "text": "DOMContentLoaded",
-          "weight": 100,
           "comments": "",
-          "id": 6641
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -244,34 +245,32 @@
       "id": 366229,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 5,
+      "assessment_question_id": 632068,
+      "position": null,
       "question_name": "Events: DOMContentLoaded",
       "question_type": "true_false_question",
-      "question_text": "<p>Select true or false. Given the following HTML:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code><span class=\"cp\">&lt;!DOCTYPE html&gt;</span>\n<span class=\"nt\">&lt;html</span> <span class=\"na\">lang=</span><span class=\"s\">\"en\"</span><span class=\"nt\">&gt;</span>\n  <span class=\"nt\">&lt;head&gt;</span>\n    <span class=\"nt\">&lt;script </span><span class=\"na\">src=</span><span class=\"s\">\"index.js\"</span><span class=\"nt\">&gt;&lt;/script&gt;</span>\n  <span class=\"nt\">&lt;/head&gt;</span>\n  <span class=\"nt\">&lt;body&gt;</span>\n    <span class=\"nt\">&lt;h1&gt;</span>Hello!<span class=\"nt\">&lt;/h1&gt;</span>\n  <span class=\"nt\">&lt;/body&gt;</span>\n<span class=\"nt\">&lt;/html&gt;</span>\n</code></pre></div>\n<p>And the following JavaScript code in the <code>index.js</code> file:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">h1</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">h1</span><span class=\"p\">.</span><span class=\"nx\">textContent</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>The JavaScript code would throw an error.</p>",
+      "question_text": "<p>Select true or false. Given the following HTML:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code>lang=\"en\"&gt;\n\n    <span class=\"nt\">&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"na\"</span><span class=\"nt\">&gt;</span>src=<span class=\"nt\">&lt;/span&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"s\"</span><span class=\"nt\">&gt;</span>\"index.js\"<span class=\"nt\">&lt;/span&gt;&lt;span</span> <span class=\"na\">class=</span><span class=\"s\">\"nt\"</span><span class=\"nt\">&gt;</span>&gt;\n\n\n    Hello!\n</code></pre></div>\n<p>And the following JavaScript code in the <code>index.js</code> file:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">h1</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">h1</span><span class=\"p\">.</span><span class=\"nx\">textContent</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>The JavaScript code would throw an error.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Video: DOMContentLoadedThe JavaScript DOMContentLoaded Event",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/video-domcontentloaded?module_item_id=627541\">Video: DOMContentLoaded</a></li><li><a href=\"/courses/7550/assignments/263283?module_item_id=627542\">The JavaScript DOMContentLoaded Event</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_922",
-          "id": 922,
+          "comments": "",
+          "comments_html": "<p>Correct! Since the <code>tag comes before the</code> element in the HTML document, the\n`<code>element won't be loaded in the DOM by the time our JavaScript code runs. That\nmeans our</code>querySelector<code>will return</code>null<code>, so we'll get an error</code>Cannot read\nproperties of null<code>. We could prevent this error by listening for the\n</code>DOMContentLoaded` before accessing elements from the DOM in our code.</p>",
           "text": "True",
-          "comments": "Correct! Since the script tag comes before the h1 element in the HTML document, the h1 element won't be loaded in the DOM by the time our JavaScript code runs. That means our querySelector will return null, so we'll get an error Cannot read properties of null. We could prevent this error by listening for the DOMContentLoaded before accessing elements from the DOM in our code.",
-          "comments_html": "Correct! Since the <code>&lt;script&gt;</code> tag comes before the <code>&lt;h1&gt;</code> element in the HTML\ndocument, the <code>&lt;h1&gt;</code> element won't be loaded in the DOM by the time our\nJavaScript code runs. That means our <code>querySelector</code> will return <code>null</code>, so\nwe'll get an error <code>Cannot read properties of null</code>. We could prevent this\nerror by listening for the <code>DOMContentLoaded</code> before accessing elements from\nthe DOM in our code."
+          "weight": 100,
+          "id": 922
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_5848",
-          "id": 5848,
+          "comments": "",
+          "comments_html": "<p>Since the <code>tag comes before the</code> element in the HTML document, the `<code>\nelement won't be loaded in the DOM by the time our JavaScript code runs. That\nmeans our</code>querySelector<code>will return</code>null<code>, so we'll get an error</code>Cannot read\nproperties of null<code>. We could prevent this error by listening for the\n</code>DOMContentLoaded` before accessing elements from the DOM in our code.</p>",
           "text": "False",
-          "comments": "Since the script tag comes before the h1 element in the HTML document, the h1 element won't be loaded in the DOM by the time our JavaScript code runs. That means our querySelector will return null, so we'll get an error Cannot read properties of null. We could prevent this error by listening for the DOMContentLoaded before accessing elements from the DOM in our code.",
-          "comments_html": "Since the <code>&lt;script&gt;</code> tag comes before the <code>&lt;h1&gt;</code> element in the HTML\ndocument, the <code>&lt;h1&gt;</code> element won't be loaded in the DOM by the time our\nJavaScript code runs. That means our <code>querySelector</code> will return <code>null</code>, so\nwe'll get an error <code>Cannot read properties of null</code>. We could prevent this\nerror by listening for the <code>DOMContentLoaded</code> before accessing elements from\nthe DOM in our code."
+          "weight": 0,
+          "id": 5848
         }
       ],
       "variables": null,
@@ -285,24 +284,25 @@
       "id": 366230,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 6,
+      "assessment_question_id": 632077,
+      "position": null,
       "question_name": "Events: Event Types",
       "question_type": "short_answer_question",
-      "question_text": "<p>Kiyana wants to make the character in their game jump every time the user\npresses the space bar. What event would make the most sense to listen for in the\nfollowing JavaScript code?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">______</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">characterJump</span><span class=\"p\">);</span>\n<span class=\"kd\">function</span> <span class=\"nx\">characterJump</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">code</span> <span class=\"o\">===</span> <span class=\"dl\">\"</span><span class=\"s2\">Space</span><span class=\"dl\">\"</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">JUMP!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>\n<p>Fill in the blank next to <code>addEventListener</code> in the code above.</p>",
+      "question_text": "<p>Kiyana wants to make the character in their game jump every time the user\npresses the space bar. What event would make the most sense to listen for in the\nfollowing JavaScript code?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\"> ______</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">characterJump</span><span class=\"p\">);</span>\n<span class=\"kd\">function</span> <span class=\"nx\">characterJump</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">code</span> <span class=\"o\">===</span> <span class=\"dl\">\"</span><span class=\"s2\">Space</span><span class=\"dl\">\"</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">JUMP!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>\n<p>Fill in the blank next to <code>addEventListener</code> in the code above.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:JavaScript Events",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/javascript-events?module_item_id=627537\">JavaScript Events</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "9238",
           "text": "keydown",
-          "weight": 100,
           "comments": "",
-          "id": 9238
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -316,39 +316,39 @@
       "id": 366231,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 7,
+      "assessment_question_id": 632073,
+      "position": null,
       "question_name": "Events: Event Types",
       "question_type": "short_answer_question",
-      "question_text": "<p>I have the following code, and want to listen for clickEvents on the\n<code>characterDiv</code>, and call the <code>handleClick</code> function once it is clicked. What is\nthe syntax to write out this event listener?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">characterDiv</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#character-div</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n\n<span class=\"kd\">function</span> <span class=\"nx\">handleClick</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">I've been clicked!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">characterDiv</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">______</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>Fill in the blank in the code above.</p>",
+      "question_text": "<p>I have the following code, and want to listen for clickEvents on\nthe<code>characterDiv</code>, and call the <code>handleClick</code> function once it is clicked. What\nis the syntax to write out this event listener?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">characterDiv</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#character-div</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n\n<span class=\"kd\">function</span> <span class=\"nx\">handleClick</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">I've been clicked!</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">characterDiv</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">______</span> <span class=\"p\">);</span>\n</code></pre></div>\n<p>Fill in the blank in the code above.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:JavaScript Events",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/javascript-events?module_item_id=627537\">JavaScript Events</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "194",
           "text": "handleClick",
-          "weight": 100,
-          "comments": "Correct! We can use handleClick as a callback function for the event listener.",
-          "id": 194,
-          "comments_html": "Correct! We can use <code>handleClick</code> as a callback function for the event listener."
+          "comments": "",
+          "comments_html": "<p>Correct! We can use <code>handleClick</code> as a callback function for the event listener.</p>",
+          "weight": 100
         },
         {
+          "id": "7927",
           "text": "() => handleClick()",
-          "weight": 100,
-          "comments": "Correct! We can write an arrow function to call handleClick as a callback function for the event listener. We could also use handleClick as the callback without the arrow function, like so: characterDiv.addEventListener(\"click\", handleClick);",
-          "id": 7927,
-          "comments_html": "<p>Correct! We can write an arrow function to call <code>handleClick</code> as a callback\nfunction for the event listener. We could also use <code>handleClick</code> as the\ncallback without the arrow function, like so:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">characterDiv</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">handleClick</span><span class=\"p\">);</span>\n</code></pre></div>"
+          "comments": "",
+          "comments_html": "<p>Correct! We can write an arrow function to call <code>handleClick</code> as a callback\nfunction for the event listener. We could also use <code>handleClick</code> as the callback\nwithout the arrow function, like so:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">characterDiv</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">click</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">handleClick</span><span class=\"p\">);</span>\n</code></pre></div>",
+          "weight": 100
         },
         {
+          "id": "5863",
           "text": "handleClick()",
-          "weight": 100,
-          "comments": "Not quite. addEventListener expects a callback function. By placing parentheses at the end of handleClick() we are invoking the function directly, rather than waiting for the JavaScript to invoke the function when the characterDiv is clicked.",
-          "id": 5863,
-          "comments_html": "Not quite. <code>addEventListener</code> expects a callback function. By placing\nparentheses at the end of <code>handleClick()</code> we are invoking the function\ndirectly, rather than waiting for the JavaScript to invoke the function when\nthe <code>characterDiv</code> is clicked."
+          "comments": "",
+          "comments_html": "<p>Not quite. <code>addEventListener</code> expects a callback function. By placing\nparentheses at the end of <code>handleClick()</code> we are invoking the function directly,\nrather than waiting for the JavaScript to invoke the function when the\n<code>characterDiv</code> is clicked.</p>",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -362,36 +362,39 @@
       "id": 366232,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 8,
+      "assessment_question_id": 632074,
+      "position": null,
       "question_name": "Events: Forms",
       "question_type": "short_answer_question",
-      "question_text": "The ______ event fires when a <code>form</code> is submitted.",
+      "question_text": "<p>The ______ event fires when a <code>form</code> is submitted.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Video: Forms",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/video-forms?module_item_id=627540\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "248",
           "text": "submit",
-          "weight": 100,
           "comments": "",
-          "id": 248
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "4065",
           "text": "'submit'",
-          "weight": 100,
           "comments": "",
-          "id": 4065
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "5095",
           "text": "\"submit\"",
-          "weight": 100,
           "comments": "",
-          "id": 5095
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -405,66 +408,74 @@
       "id": 366233,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 9,
+      "assessment_question_id": 632067,
+      "position": null,
       "question_name": "Events: Forms",
       "question_type": "short_answer_question",
-      "question_text": "<p>Given the following code:</p>\n<div class=\"highlight\">\n<pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logSubmit</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">preventDefault</span><span class=\"p\">();</span>\n  <span class=\"nx\">log</span><span class=\"p\">.</span><span class=\"nx\">textContent</span> <span class=\"o\">=</span> <span class=\"s2\">`Form Submitted! Time stamp: </span><span class=\"p\">${</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">timeStamp</span><span class=\"p\">}</span><span class=\"s2\">`</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n\n<span class=\"kd\">const</span> <span class=\"nx\">form</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">form</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"kd\">const</span> <span class=\"nx\">log</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">log</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n\n<span class=\"c1\">// your code here</span>\n</code></pre>\n</div>\n<p>Write out the line of code needed to listen for an event on the <code>form</code>, and call the <code>logSubmit</code> function when the event is fired.</p>",
+      "question_text": "<p>Given the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logSubmit</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">preventDefault</span><span class=\"p\">();</span>\n  <span class=\"nx\">log</span><span class=\"p\">.</span><span class=\"nx\">textContent</span> <span class=\"o\">=</span> <span class=\"s2\">`Form Submitted! Time stamp: </span><span class=\"p\">${</span><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">timeStamp</span><span class=\"p\">}</span><span class=\"s2\">`</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n\n<span class=\"kd\">const</span> <span class=\"nx\">form</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">form</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"kd\">const</span> <span class=\"nx\">log</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">log</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n\n<span class=\"c1\">// your code here</span>\n</code></pre></div>\n<p>Write out the line of code needed to listen for an event on the <code>form</code>, and call\nthe <code>logSubmit</code> function when the event is fired.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Video: Forms",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/video-forms?module_item_id=627540\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "9280",
           "text": "form.addEventListener('submit', logSubmit);",
-          "weight": 100,
           "comments": "",
-          "id": 9280
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "4439",
           "text": "form.addEventListener('submit',logSubmit)",
-          "weight": 100,
           "comments": "",
-          "id": 4439
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "6887",
           "text": "form.addEventListener(\"submit\", logSubmit);",
-          "weight": 100,
           "comments": "",
-          "id": 6887
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "4340",
           "text": "form.addEventListener(\"submit\",logSubmit)",
-          "weight": 100,
           "comments": "",
-          "id": 4340
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "1927",
           "text": "form.addEventListener('submit', logSubmit)",
-          "weight": 100,
           "comments": "",
-          "id": 1927
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "5872",
           "text": "form.addEventListener('submit',logSubmit);",
-          "weight": 100,
           "comments": "",
-          "id": 5872
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "7209",
           "text": "form.addEventListener(\"submit\", logSubmit)",
-          "weight": 100,
           "comments": "",
-          "id": 7209
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "4394",
           "text": "form.addEventListener(\"submit\",logSubmit);",
-          "weight": 100,
           "comments": "",
-          "id": 4394
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -478,8 +489,8 @@
       "id": 366234,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 10,
+      "assessment_question_id": 632076,
+      "position": null,
       "question_name": "Events: Forms",
       "question_type": "short_answer_question",
       "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">form</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">form</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">submit</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">submitForm</span><span class=\"p\">);</span>\n\n<span class=\"kd\">function</span> <span class=\"nx\">submitForm</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>\n<p>Whenever we fire the <code>submit</code> on the form above, the whole page refreshes. What\nline of code could we add to stop this from happening?</p>",
@@ -487,21 +498,23 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Video: Forms",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/video-forms?module_item_id=627540\">Video: Forms</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "2414",
           "text": "event.preventDefault()",
-          "weight": 100,
           "comments": "",
-          "id": 2414
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "1187",
           "text": "event.preventDefault();",
-          "weight": 100,
           "comments": "",
-          "id": 1187
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -515,62 +528,58 @@
       "id": 366235,
       "quiz_id": 53424,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 11,
+      "assessment_question_id": 632065,
+      "position": null,
       "question_name": "Events: Forms",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Given the following HTML:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code><span class=\"nt\">&lt;form&gt;</span>\n  <span class=\"nt\">&lt;input</span> <span class=\"na\">id=</span><span class=\"s\">\"create_item\"</span> <span class=\"na\">type=</span><span class=\"s\">\"text\"</span> <span class=\"na\">placeholder=</span><span class=\"s\">\"Create New Item...\"</span> <span class=\"nt\">/&gt;</span>\n  <span class=\"nt\">&lt;input</span> <span class=\"na\">id=</span><span class=\"s\">\"new-item-button\"</span> <span class=\"na\">type=</span><span class=\"s\">\"submit\"</span> <span class=\"na\">value=</span><span class=\"s\">\"Submit!\"</span> <span class=\"nt\">/&gt;</span>\n<span class=\"nt\">&lt;/form&gt;</span>\n</code></pre></div>\n<p>And the following JavaScript:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">form</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">form</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">submit</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">submitForm</span><span class=\"p\">);</span>\n\n<span class=\"kd\">function</span> <span class=\"nx\">submitForm</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">preventDefault</span><span class=\"p\">();</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">______</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>\n<p>What code can we write in the blank above to print the value of the input box to\nthe console?</p>\n\n<p>Select all that apply.</p>",
+      "question_text": "<p>Given the following HTML:</p>\n<div class=\"highlight\"><pre class=\"highlight html\"><code>id=\"create_item\" type=\"text\" placeholder=\"Create New Item...\" /&gt;\n   id=\"new-item-button\" type=\"submit\" value=\"Submit!\" /&gt;\n</code></pre></div>\n<p>And the following JavaScript:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">form</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">form</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">addEventListener</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">submit</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">submitForm</span><span class=\"p\">);</span>\n\n<span class=\"kd\">function</span> <span class=\"nx\">submitForm</span><span class=\"p\">(</span><span class=\"nx\">event</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">preventDefault</span><span class=\"p\">();</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span> <span class=\"nx\">______</span> <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>\n<p>What code can we write in the blank above to print the value of the input box to\nthe console?</p>\n\n<p>Select all that apply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Video: FormsVideo: DOM Selectors",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/video-forms?module_item_id=627540\">Video: Forms</a></li><li><a href=\"/courses/7550/pages/video-dom-selectors\">Video: DOM Selectors</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_7880",
-          "id": 7880,
-          "text": "event.target.create_item.value;",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">target</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "Correct! event.target in this context will give us the form element, and we can access input elements with a form using their id attribute. Then we can use the .value attribute of the input to access the text input by the user.",
-          "comments_html": "Correct! <code>event.target</code> in this context will give us the <code>form</code> element, and\nwe can access input elements with a form using their <code>id</code> attribute. Then we\ncan use the <code>.value</code> attribute of the input to access the text input by the\nuser."
+          "id": "7880",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! <code>event.target</code> in this context will give us the <code>form</code> element, and we\ncan access input elements with a form using their <code>id</code> attribute. Then we can\nuse the <code>.value</code> attribute of the input to access the text input by the user.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">event</span><span class=\"p\">.</span><span class=\"nx\">target</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_4950",
-          "id": 4950,
-          "text": "form.create_item.value;",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "Correct! We can access input elements with a form using their id attribute. Then we can use the .value attribute of the input to access the text input by the user.",
-          "comments_html": "Correct! We can access input elements with a form using their <code>id</code> attribute.\nThen we can use the <code>.value</code> attribute of the input to access the text input\nby the user."
+          "id": "4950",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! We can access input elements with a form using their <code>id</code> attribute.\nThen we can use the <code>.value</code> attribute of the input to access the text input by\nthe user.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">create_item</span><span class=\"p\">.</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_1886",
-          "id": 1886,
-          "text": "document.querySelector(\"#create_item\").value;",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "Correct! We find the input element using querySelector. Then we can use the .value attribute of the input to access the text input by the user.",
-          "comments_html": "Correct! We find the input element using <code>querySelector</code>. Then we can use the\n<code>.value</code> attribute of the input to access the text input by the user."
+          "id": "1886",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! We find the input element using <code>querySelector</code>. Then we can use\nthe<code>.value</code> attribute of the input to access the text input by the user.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_1317",
-          "id": 1317,
-          "text": "form.querySelector(\"#create_item\").value;",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "Correct! We find the input element within the form using querySelector. Then we can use the .value attribute of the input to access the text input by the user.",
-          "comments_html": "Correct! We find the input element within the <code>form</code> using <code>querySelector</code>.\nThen we can use the <code>.value</code> attribute of the input to access the text input\nby the user."
+          "id": "1317",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! We find the input element within the <code>form</code> using <code>querySelector</code>. Then\nwe can use the <code>.value</code> attribute of the input to access the text input by the\nuser.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">form</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#create_item</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">value</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7711",
-          "id": 7711,
-          "text": "I don't know",
-          "html": "I don't know",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 8670,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know</p>"
         }
       ],
       "variables": null,
